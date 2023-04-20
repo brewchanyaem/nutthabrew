@@ -74,11 +74,11 @@
   white-space: nowrap;
   transform: translateY(140%) rotate(10deg);
   transition: var(--animation-primary);
-  letter-spacing: -.01em;
+  letter-spacing: -.1em;
   text-align: center;
   width: 100%;
   transition-delay: 0s;
-  font-size: 1em;
+  font-size: 2.369rem;
 }
 
 .btn .btn-click .btn-text span:nth-of-type(1) {

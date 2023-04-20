@@ -14,14 +14,14 @@ h3 {
   font-family: 'Poppins', Arial;
   font-weight: 400;
   font-size: 2.369rem;
-  line-height: 1;
+  line-height: 1.25;
 }
 
 h4 {
   font-family: 'Poppins', Arial;
   font-weight: 400;
   font-size: 1.777rem;
-  line-height: 1.15;
+  line-height: 1.5;
   letter-spacing: 0.05em;
   margin: 0;
 }

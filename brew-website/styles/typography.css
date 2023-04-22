@@ -1,0 +1,56 @@
+h1 {
+  font-size: 4.209rem;
+  line-height: 0.8;
+}
+
+h2 {
+  font-family: 'Poppins', Arial;
+  font-weight: 400;
+  font-size: 3.157rem;
+  line-height: 0.8;
+}
+
+h3 {
+  font-family: 'Poppins', Arial;
+  font-weight: 400;
+  font-size: 2.369rem;
+  line-height: 1.25;
+}
+
+h4 {
+  font-family: 'Poppins', Arial;
+  font-weight: 400;
+  font-size: 1.777rem;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+h5 {
+  font-family: 'Poppins', Arial;
+  font-weight: 400;
+  font-size: 1.333rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h6 {
+  font-family: 'Poppins', Arial;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+
+.theme-no-italic .serif, .theme-no-italic .serif span {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.theme-serif .serif, .theme-serif .serif span {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+}

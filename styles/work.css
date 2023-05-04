@@ -34,7 +34,6 @@
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   padding: 100px 60px;
-  border-bottom: 1px solid #000;
 }
 
 .recent-work img {

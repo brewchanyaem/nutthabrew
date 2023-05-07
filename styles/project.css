@@ -1,388 +1,389 @@
 .project-intro {
-padding: 100px 112px;
-border-bottom: 1px solid #000000;
-}
-
-.project-container {
-  margin-top: 32px;
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-}
-
-.project-name {
-  font-size: 200px;
-  font-family: 'Playfair Display', sans-serif;
-  line-height: 0.8;
-  letter-spacing: 0.1em;
-  color: rgb(198, 221, 255);
-  text-align: center;
-}
-
-.project-intro img{
-  width: 50%;
-  justify-self: center;
-  margin-top: 12px;
-}
-
-@media (min-width: 1000px) 
-{.project-intro img{
-  width: 50%;
-  justify-self: center;
-  margin-top: 32px;
-}}
-
-@media (max-width: 820px)
-{.project-intro img {
-  width: 120%;
-  margin-top: 40px;
-}}
-
-@media (min-width: 821px) and (max-width: 999px) 
-{.project-intro img {
-  width: 120%;
-  margin-top: 40px;
-}}
-
-.about {
-  background-color: var(--color-secondary);
-  border-bottom: 1px solid #000;
-  padding: 100px 60px;
-  justify-items: center;
-}
-
-@media (max-width: 820px)
-{.about div{
-  text-align: center;
-}}
-
-@media (min-width: 821px) and (max-width: 999px) 
-{.project-about {
-  display: block;
-}}
+  padding: 60px 112px;
+  border-bottom: 1px solid #000000;
+  }
   
-@media (min-width: 1000px) 
-{.project-about {
-  display: flex;
-  justify-content: center;
-}}
-
-.project-about {
-  display: flex;
-  justify-content: center;
-}
-
-@media (max-width: 820px)
-{.project-about {
-  display: block;
-}}
-
-@media (min-width: 821px) and (max-width: 999px) 
-{.project-about {
-  display: block;
-}}
+  .project-container {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
   
-@media (min-width: 1000px) 
-{.project-about {
-  display: flex;
-  justify-content: center;
-}}
-
-.about-title {
-  margin-right: 60px;
-}
-
-@media (max-width: 820px)
-{.about-title {
-  display: flex;
- align-items: baseline;
- gap: 12px;
- margin-bottom: 24px;
- letter-spacing: normal;
- justify-content: center;
- margin: 0;
-}}
-
-@media (min-width: 821px) and (max-width: 999px) 
-{.about-title {
-  display: flex;
- align-items: baseline;
- gap: 12px;
- margin-bottom: 24px;
- letter-spacing: normal;
- justify-content: center;
- margin: 0;
-}}
+  .project-name {
+    font-size: 200px;
+    font-family: 'Playfair Display', sans-serif;
+    line-height: 0.8;
+    letter-spacing: 0.1em;
+    color: rgb(198, 221, 255);
+    text-align: center;
+  }
   
-@media (min-width: 1000px) 
-{.about-title {
-  margin-right: 60px;
-}}
-
-
-.about-title a{
-  font-size: 4.209rem;
-  line-height: 0.8;
-  font-family: 'Playfair Display', sans-serif;
-  color: #000;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.about-title h1{
-  letter-spacing: -0.05em;
-  text-transform: uppercase;
-}
-
-.design-element {
-  padding: 100px 60px;
-  border-bottom: #000 solid 1px;
-}
-
-.color {
-  width: 150px;
-  height: 150px;
-  border-radius: 30px;
-  margin-top: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-@media (max-width: 820px)
-{.color {
-  width: 150px;
-  height: 150px;
-}}
-
-@media (min-width: 821px) and (max-width: 999px) 
-{.color {
-  width: 180px;
-  height: 180px;
-}}
-
-.color-columns {
-  display: flex;
-  gap: 24px;
-}
-
-.elements {
-  margin-top: 32px;
-  display: flex;
-  gap: 32px;
-}
-
-@media (max-width: 820px)
-{.elements {
-  margin-top: 44px;
-  display: grid;
-  row-gap: 32px;
-}}
-
-@media (min-width: 821px) and (max-width: 999px) 
-{.elements {
-  margin-top: 44px;
-  display: grid;
-  row-gap: 32px;
-}}
-
-.element {
-  border-radius: 30px;
-  border: 1px solid #000;
-  padding: 24px 32px;
-  display: grid;
-  row-gap: 8px;
-}
-
-@media (max-width: 820px)
-{.element {
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}}
-
-@media (min-width: 821px) and (max-width: 999px) 
-{.element {
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}}
-
-
-.two-columns img{
-  max-width: 200px;
-}
-
-
-.element-img img {
-  width: 70%;
-  height: fit-content;
-}
-
-.graphics-columns {
-  display: grid;
-  row-gap: 24px;
-}
-
-.graphics-description {
-  width: 250px
-}
-
-.element-img {
-  display: flex;
-  justify-content: center;
-}
-
-.graphics-columns img {
-width: 180px;
-}
-
-.about-description h4{
-  margin-bottom: 8px;
-}
-
-@media (min-width: 1000px) 
-{.about-description h4 {
-  margin-top: 0;
-  text-align: left;
-}}
-
-@media (max-width: 820px)
-{.about-description h4 {
-  margin-top: 24px;
-  text-align: center;
-}}
-
-@media (min-width: 821px) and (max-width: 999px) 
-{.about-description h4  {
-  margin-top: 24px;
-  text-align: center;
-}}
-
-@media (min-width: 1000px) 
-{.about-description h5 {
-  margin-top: 0;
-  text-align: left;
-}}
-
-@media (max-width: 820px)
-{.about-description h5 {
-  margin-top: 8px;
-  text-align: center;
-}}
-
-@media (min-width: 821px) and (max-width: 999px) 
-{.about-description h5  {
-  margin-top: 8px;
-  text-align: center;
-}}
-
-.graphics {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  row-gap: 24px;
-}
-
-.colors {
-  row-gap: 24px;
-  display: grid;
-}
-
-@media (max-width: 820px)
-{.element-img {
-  display: none;
-}}
-
-@media (min-width: 821px) and (max-width: 999px) 
-  {.element-img {
-   display: none;
+  .project-intro img{
+    width: 50%;
+    justify-self: center;
+    margin-top: 12px;
+  }
+  
+  @media (min-width: 1194px) 
+  {.project-intro img{
+    width: 50%;
+    justify-self: center;
+    margin-top: 32px;
   }}
-
+  
   @media (max-width: 820px)
-{.design-container {
-  display: block;
-  margin: 0;
-}}
-
-@media (min-width: 821px) and (max-width: 999px) 
-{.design-container {
-  display: block;
-  margin: 0;
-}}
-
-.element-container {
-  display: flex;
-  align-items: center;
-}
-
-@media (min-width: 821px) and (max-width: 999px) 
-  {.element-container {
-   display: block;
+  {.project-intro img {
+    width: 120%;
+    margin-top: 40px;
   }}
-
-@media (max-width: 820px)
-  {.graphics-columns {
-    justify-self: right;
-}}
   
-@media (min-width: 821px) and (max-width: 999px) 
-  {.graphics-columns {
-    justify-self: right;
-}}
-
-@media (max-width: 820px)
-  {.color-columns {
-    justify-self: right;
-}}
+  @media (min-width: 821px) and (max-width: 1194px) 
+  {.project-intro img {
+    width: 80%;
+    margin-top: 40px;
+  }}
   
-@media (min-width: 821px) and (max-width: 999px) 
-  {.color-columns {
-    justify-self: right;
-}}
-
-@media (max-width: 820px)
+  .about {
+    background-color: var(--color-secondary);
+    border-bottom: 1px solid #000;
+    padding: 100px 60px;
+    justify-items: center;
+  }
+  
+  @media (max-width: 820px)
+  {.about div{
+    text-align: center;
+  }}
+  
+  @media (min-width: 821px) and (max-width: 999px) 
+  {.project-about {
+    display: block;
+  }}
+    
+  @media (min-width: 1000px) 
+  {.project-about {
+    display: flex;
+    justify-content: center;
+  }}
+  
+  .project-about {
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media (max-width: 820px)
+  {.project-about {
+    display: block;
+  }}
+  
+  @media (min-width: 821px) and (max-width: 999px) 
+  {.project-about {
+    display: block;
+  }}
+    
+  @media (min-width: 1000px) 
+  {.project-about {
+    display: flex;
+    justify-content: center;
+  }}
+  
+  .about-title {
+    margin-right: 60px;
+  }
+  
+  @media (max-width: 820px)
+  {.about-title {
+    display: flex;
+   align-items: baseline;
+   gap: 12px;
+   margin-bottom: 24px;
+   letter-spacing: normal;
+   justify-content: center;
+   margin: 0;
+  }}
+  
+  @media (min-width: 821px) and (max-width: 999px) 
+  {.about-title {
+    display: flex;
+   align-items: baseline;
+   gap: 12px;
+   margin-bottom: 24px;
+   letter-spacing: normal;
+   justify-content: center;
+   margin: 0;
+  }}
+    
+  @media (min-width: 1000px) 
+  {.about-title {
+    margin-right: 60px;
+  }}
+  
+  
+  .about-title a{
+    font-size: 4.209rem;
+    line-height: 0.8;
+    font-family: 'Playfair Display', sans-serif;
+    color: #000;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  .about-title h1{
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+  }
+  
+  .design-element {
+    padding: 100px 60px;
+    border-bottom: #000 solid 1px;
+  }
+  
+  .color {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 820px)
+  {.color {
+    width: 150px;
+    height: 150px;
+  }}
+  
+  @media (min-width: 821px) and (max-width: 999px) 
+  {.color {
+    width: 180px;
+    height: 180px;
+  }}
+  
+  .color-columns {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .elements {
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+  }
+  
+  @media (max-width: 820px)
+  {.elements {
+    margin-top: 44px;
+    display: grid;
+    row-gap: 32px;
+  }}
+  
+  @media (min-width: 821px) and (max-width: 999px) 
+  {.elements {
+    margin-top: 44px;
+    display: grid;
+    row-gap: 32px;
+  }}
+  
+  .element {
+    border-radius: 30px;
+    border: 1px solid #000;
+    padding: 24px 32px;
+    display: grid;
+    row-gap: 8px;
+  }
+  
+  @media (max-width: 820px)
+  {.element {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }}
+  
+  @media (min-width: 821px) and (max-width: 999px) 
+  {.element {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }}
+  
+  
+  .two-columns img{
+    max-width: 200px;
+  }
+  
+  
+  .element-img img {
+    width: 70%;
+    height: fit-content;
+  }
+  
+  .graphics-columns {
+    display: grid;
+    row-gap: 24px;
+  }
+  
+  .graphics-description {
+    width: 250px
+  }
+  
+  .element-img {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .graphics-columns img {
+  width: 180px;
+  }
+  
+  .about-description h4{
+    margin-bottom: 8px;
+  }
+  
+  @media (min-width: 1000px) 
+  {.about-description h4 {
+    margin-top: 0;
+    text-align: left;
+  }}
+  
+  @media (max-width: 820px)
+  {.about-description h4 {
+    margin-top: 24px;
+    text-align: center;
+  }}
+  
+  @media (min-width: 821px) and (max-width: 999px) 
+  {.about-description h4  {
+    margin-top: 24px;
+    text-align: center;
+  }}
+  
+  @media (min-width: 1000px) 
+  {.about-description h5 {
+    margin-top: 0;
+    text-align: left;
+  }}
+  
+  @media (max-width: 820px)
+  {.about-description h5 {
+    margin-top: 8px;
+    text-align: center;
+  }}
+  
+  @media (min-width: 821px) and (max-width: 999px) 
+  {.about-description h5  {
+    margin-top: 8px;
+    text-align: center;
+  }}
+  
+  .graphics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    row-gap: 24px;
+  }
+  
+  .colors {
+    row-gap: 24px;
+    display: grid;
+  }
+  
+  @media (max-width: 820px)
+  {.element-img {
+    display: none;
+  }}
+  
+  @media (min-width: 821px) and (max-width: 1194px) 
+    {.element-img {
+     display: none;
+    }}
+  
+    @media (max-width: 820px)
+  {.design-container {
+    display: block;
+    margin: 0;
+  }}
+  
+  @media (min-width: 821px) and (max-width: 999px) 
+  {.design-container {
+    display: block;
+    margin: 0;
+  }}
+  
+  .element-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (min-width: 821px) and (max-width: 999px) 
+    {.element-container {
+     display: block;
+    }}
+  
+  @media (max-width: 820px)
+    {.graphics-columns {
+      justify-self: right;
+  }}
+    
+  @media (min-width: 821px) and (max-width: 999px) 
+    {.graphics-columns {
+      justify-self: right;
+  }}
+  
+  @media (max-width: 820px)
+    {.color-columns {
+      justify-self: right;
+  }}
+    
+  @media (min-width: 821px) and (max-width: 999px) 
+    {.color-columns {
+      justify-self: right;
+  }}
+  
+  @media (max-width: 820px)
+    {.graphics {
+      align-items: unset;
+  }}
+    
+  @media (min-width: 821px) and (max-width: 1194px) 
   {.graphics {
     align-items: unset;
-}}
+  }}
   
-@media (min-width: 821px) and (max-width: 1194px) 
-{.graphics {
-  align-items: unset;
-}}
-
-@media (max-width: 820px)
+  @media (max-width: 820px)
+    {.project-name{
+      margin-top: 20px;
+      font-size: 120px;
+      letter-spacing: normal;
+  }}
+    
+  @media (min-width: 821px) and (max-width: 1194px) 
   {.project-name{
-    margin-top: 100px;
+    margin-top: 20px;
     font-size: 120px;
     letter-spacing: normal;
-}}
+  }}
   
-@media (min-width: 821px) and (max-width: 1194px) 
-{.project-name{
-  margin-top: 100px;
-  font-size: 120px;
-  letter-spacing: normal;
-}}
-
-.about-description img {
-  width: 350px;
-  margin-top: 24px;
-}
-
-.about-description {
-  justify-items: center;
-  display: grid;
-}
-
-@media (max-width: 820px)
-  {.about-description img{
-    width: 500px;
+  .about-description img {
+    width: 350px;
     margin-top: 24px;
-}}
+  }
   
-@media (min-width: 821px) and (max-width: 999px) 
-{.about-description img{
-  width: 600px;
-  margin-top: 32px;
-}}
+  .about-description {
+    justify-items: center;
+    display: grid;
+  }
+  
+  @media (max-width: 820px)
+    {.about-description img{
+      width: 500px;
+      margin-top: 24px;
+  }}
+    
+  @media (min-width: 821px) and (max-width: 999px) 
+  {.about-description img{
+    width: 600px;
+    margin-top: 32px;
+  }}
+  

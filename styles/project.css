@@ -1,5 +1,5 @@
 .project-intro {
-padding: 60px 112px;
+padding: 100px 112px;
 border-bottom: 1px solid #000000;
 }
 
@@ -22,7 +22,7 @@ border-bottom: 1px solid #000000;
 .project-intro img{
   width: 50%;
   justify-self: center;
-  margin-top: 12px;
+  margin-top: 32px;
 }
 
 @media (min-width: 1000px) 
@@ -346,7 +346,7 @@ width: 180px;
     align-items: unset;
 }}
   
-@media (min-width: 821px) and (max-width: 1024px) 
+@media (min-width: 821px) and (max-width: 1194px) 
 {.graphics {
   align-items: unset;
 }}
@@ -358,7 +358,7 @@ width: 180px;
     letter-spacing: normal;
 }}
   
-@media (min-width: 821px) and (max-width: 1024px) 
+@media (min-width: 821px) and (max-width: 1194px) 
 {.project-name{
   margin-top: 100px;
   font-size: 120px;

@@ -46,7 +46,6 @@
   
   .about {
     background-color: var(--color-secondary);
-    border-bottom: 1px solid #000;
     padding: 100px 60px;
     justify-items: center;
   }
@@ -370,9 +369,19 @@
   }
   
   .about-description {
-    justify-items: center;
+    justify-items: left;
     display: grid;
   }
+
+  @media (max-width: 820px)
+  {.about-description {
+    justify-items: center;
+}}
+  
+@media (min-width: 821px) and (max-width: 999px) 
+{.about-description {
+  justify-items: center;
+}}
   
   @media (max-width: 820px)
     {.about-description img{

@@ -40,12 +40,12 @@
               <div class="flex-col">
                 <div class="btn-row">
                   <div class="btn btn-normal">
-                    <a href="mailto:nutthabrew@gmail.com" class="btn-click">
+                    <a href="projects.html" class="btn-click">
                       <div class="btn-text">
                         <span>
-                          CONTACT
+                          WORK
                         </span>
-                        <span class="serif">CONTACT</span>
+                        <span class="serif">WORK</span>
                       </div>
                     </a>
                   </div>
@@ -60,7 +60,7 @@
         <div class="hero">
           <div class="hero-title">
             <h1 style="margin-right: 8px;">designer based in</h1>
-            <h1 style="font-family: 'Playfair DISPLAY'; background: rgb(246, 241, 230); border-radius: 50px;  padding: 12px;">bangkok</h1>
+            <h1 style="font-family: 'Playfair DISPLAY'; background: #FFFCF4; border-radius: 12px;  padding: 12px;">bangkok</h1>
           </div>
           <div class="intro-container">
             <div class="hero-card-left">
@@ -96,10 +96,11 @@
                 </div>
               </div>
               <div class="hero-card-bottom">
-                <a href="#jump">
-                  <div class="hero-pink" style="background: rgb(255, 174, 228);">
+                <a href="projects.html">
+                  <div class="hero-pink" style="background: #FFFCF4;">
                     <h2 style="color: #000;">My work</h2>
                   </div>
+                  <img src="img/Frame 39.png" alt="img-cover" class="follow-img">
                 </a>
               </div>
             </div>
@@ -124,11 +125,11 @@
       </section>
 
 <div class="text-wrapper">
-<h3>Latest project</h3>
-<h3>Latest project</h3>
-<h3>Latest project</h3>
-<h3>Latest project</h3>
-<h3>Latest project</h3>
+<h3>work experience</h3>
+<h3>work experience</h3>
+<h3>work experience</h3>
+<h3>work experience</h3>
+<h3>work experience</h3>
 </div>
 
 <section class="recent-work">
@@ -138,48 +139,18 @@
   </div>
   <div class="project">
     <div class="work-title">
-      <h1>Recent work</h1>
+      <h1>My experience</h1>
     </div>
     <div class="projects">
       <div class="project-wrapper">
         <div class="website">
-          <a href="healthiness.html" class="hover-text">Healthiness
-            <span class="hover-card">
-              <img src="img/Healthiness.png">
-            </span>
-          </a>
+          <h4 style="padding-bottom: 4px;">Creative designer at Optiwise</h4>
+          <h6>September 2021 - August 2022</h6>
         </div>
 
         <div class="website">
-          <a href="royal-plus.html" class="hover-text">Royal Plus
-            <span class="hover-card">
-              <img src="img/royal-plus.png">
-            </span>
-          </a>
-        </div>
-
-        <div class="website">
-          <a href="mcot-investor.html" class="hover-text">MCOT investor
-            <span class="hover-card">
-              <img src="img/MCOT.png">
-            </span>
-          </a>
-        </div>
-
-        <div class="website">
-          <a href="bch.html" class="hover-text">Bangkok Chain Hospital
-            <span class="hover-card">
-              <img src="img/BCH.png">
-            </span>
-          </a>
-        </div>
-
-        <div class="website">
-          <a href="cons-inno.html" class="hover-text">Cons Inno
-            <span class="hover-card">
-              <img src="img/cons-inno.png">
-            </span>
-          </a>
+          <h4 style="padding-bottom: 4px;">UX/UI Designer at Central Digital</h4>
+          <h6>August 2022 - Current</h6>
         </div>
       </div>
     </div>
@@ -272,6 +243,22 @@ var getThailandTime = function() {
 }
 getThailandTime();
 setInterval(getThailandTime, 1000);
+</script>
+
+<script>
+'use strict'
+
+var cursor = document.querySelector(".follow-img");
+
+document.addEventListener("mousemove", (e) => {
+
+  var x = e.clientX;
+  var y = e.clientY;
+
+  cursor.style.left = `${x}px`;
+  cursor.style.top = `${y}px`;
+  
+})
 </script>
   </body>
   </html>

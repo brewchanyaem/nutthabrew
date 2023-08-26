@@ -2,7 +2,6 @@
   display: grid;
   padding: 100px 60px 100px 60px;
   background-color: var(--color-secondary);
-  border-bottom: 1px solid #000;
 }
 
 .service-title {

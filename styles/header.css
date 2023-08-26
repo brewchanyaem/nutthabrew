@@ -16,12 +16,16 @@
 }
 
 .menu-bar {
-  margin: 0;
-  background-color: white;
+  margin: 24px;
   position: fixed;
-  width: 100%;
+  width: -webkit-fill-available;
   z-index: 100;
   border-bottom: 1px solid #000000;
+  border-radius: 100px;
+  border: 1px solid #FFF;
+  background: rgba(255, 255, 255, 0.50);
+  box-shadow: -2px 6px 50px 0px rgba(204, 167, 191, 0.20);
+  backdrop-filter: blur(20px);
 }
 
 .menu {
@@ -32,7 +36,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 12px 40px 12px 40px;
+  padding: 16px 40px 12px 40px;
 }
 
 .menu .btn-row {
@@ -76,6 +80,30 @@
 }
 
 .logo img{
-  height: 40px;
+  height: 36px;
   margin-top: 4px;
+}
+
+@media (max-width: 820px){
+  .logo img {
+    height: 48px;
+  }
+}
+
+@media (min-width: 821px) and (max-width: 1194px){
+  .logo img {
+    height: 48px;
+  }
+}
+
+@media (max-width: 820px){
+  .menu {
+    padding: 32px 40px 32px 40px;
+  }
+}
+
+@media (min-width: 821px) and (max-width: 1194px){
+  .menu {
+    padding: 32px 40px 32px 40px;
+  }
 }

@@ -49,8 +49,18 @@ h5 {
   margin: 0;
 }
 
+@media (max-width: 820px)
+{h5 {
+  font-size: 1.8rem;
+}}
+
+@media (min-width: 821px) and (max-width: 1194px) 
+{h6 {
+  font-size: 1.8rem;
+}}
+
 /* H6 */
-h6 {
+h5 {
   font-family: 'Poppins', Arial;
   font-weight: 400;
   font-size: 1rem;

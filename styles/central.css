@@ -80,7 +80,7 @@
 
 .central-graphics-description{
   display: grid;
-  width: 200px;
+  width: 220px;
   text-align: end;
 }
 
@@ -91,7 +91,7 @@
 
 .central-graphics img{
   max-width: 150px;
-  height: -webkit-fill-available;
+  height: fit-content;
 }
 
 .central-columns {

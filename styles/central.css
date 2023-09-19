@@ -147,7 +147,7 @@
   row-gap: 32px;}
 }
 
-@media (min-width: 821px) and (max-width: 999px) 
+@media (min-width: 821px) and (max-width: 1560px) 
 {.central-elements {
   display: grid;
   row-gap: 32px;
@@ -164,6 +164,7 @@
   border-radius: 50px;
   align-self: center;
 }
+
 
 /*HERO BANNER*/
 .hero-banner {

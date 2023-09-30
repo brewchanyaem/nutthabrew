@@ -331,6 +331,20 @@
   .others{
   padding: 100px 60px 80px 60px;}}
 
-  @media (min-width: 821px) and (max-width: 999px){
-    .others{
-      padding: 100px 60px 80px 60px;}}
+@media (min-width: 821px) and (max-width: 999px){
+  .others{
+    padding: 100px 60px 80px 60px;
+  }
+}
+
+@media (max-width: 820px){
+  .btn-container {
+    display: grid;
+  }
+}
+
+@media (min-width: 821px) and (max-width: 999px){
+  .btn-container {
+    display: grid;
+  }
+}

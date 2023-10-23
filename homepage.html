@@ -7,8 +7,8 @@
     <link rel="icon" href="img/favicons/favicon-16x16.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/body">
     <link rel="stylesheet" href="styles/typography.css">
     <link rel="stylesheet" href="styles/header.css">
@@ -18,7 +18,11 @@
     <link rel="stylesheet" href="styles/intro.css">
     <link rel="stylesheet" href="styles/specialty.css">
     <link rel="stylesheet" href="styles/work.css">
-    <link rel="stylesheet" href="scripts.js">
+    <link rel="stylesheet" href="styles/expertise.css">
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollToPlugin.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
   </head>
 
@@ -112,17 +116,51 @@
       <section class="my-service">
         <div class="service-container">
           <div class="service-title">
-            <h1 style="text-align:center;">My service</h1>
+            <h1 style="text-align:center;">My expertise</h1>
           </div>
           
          <div class="service-content">
-          <img src="img/Frame 39.png">
-          <img src="img/Frame 42.png">
-          <img src="img/Frame 40.png">
+          <div class="expertise">
+            <img src="img/Frame 39.png">
+            <div class="popup-box">
+              <h3 style="padding-bottom: 8px;">UX/UI Design</h3>
+              <h5>See my latest projects relating to web design and UX/UI design here.</h5>
+              <button class="normal-btn" style="margin-top: 24px;">
+                <a href="projects.html">Projects</a>
+              </button>
+              <a href="projects.html"></a>
+            </div>
+          </div>
+          
+          <div class="expertise">
+            <img src="img/Frame 42.png">
+            <div class="popup-box">
+              <h3 style="padding-bottom: 8px;">3D Modeling</h3>
+              <h5>Check out my Instagram to see more of my 3D modeling work!</h5>
+              <button class="normal-btn" style="margin-top: 24px;">
+                <a href="https://www.instagram.com/_peek.a.brew/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <img src="img/chevron.png" style="width: 24px;">
+              </button>
+              <a href="https://www.instagram.com/_peek.a.brew/" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+          </div>
+
+          <div class="expertise">
+            <img src="img/Frame 40.png">
+            <div class="popup-box">
+              <h3 style="padding-bottom: 8px;">Graphic design</h3>
+              <h5>i have proficient in using adobe creative suite, especially Adobe Photoshop and Adobe Illustrator. </h5>
+            </div>
+          </div>
+          
+          
          </div>
           
         </div>
       </section>
+
+    
+  
 
 <div class="text-wrapper">
 <h3>work experience</h3>
@@ -260,5 +298,6 @@ document.addEventListener("mousemove", (e) => {
   
 })
 </script>
+
   </body>
   </html>

@@ -73,5 +73,21 @@
 {.popup-box:hover {
   opacity: 0;}}
 
+.box-link {
+  height: 100%;
+  position: absolute;
+}
 
-  
+@media (max-width: 820px)
+{.box-link {
+  position: relative;
+  height: 100%;
+  display: flex;
+}}
+
+@media (min-width: 821px) and (max-width: 999px) 
+{.box-link {
+  position: relative;
+  height: 100%;
+  display: flex;
+}}

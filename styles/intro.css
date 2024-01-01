@@ -16,7 +16,7 @@
 }
 
 .hero {
-  background-color: #EF233C;
+  background-color: #FFAEE3;
 }
 
 /*Heading*/
@@ -86,7 +86,7 @@ margin: 4px;
   border-radius: 30px;
   position: relative;
   margin: 4px;
-  color: black;
+  color: white;
   border: 1px solid #fff;
   box-shadow: 0px 4px 30px 0px rgba(242, 70, 184, 0.30);
 

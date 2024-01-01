@@ -88,12 +88,12 @@
     display: grid;
   }}
   
-  @media (min-width: 821px) and (max-width: 999px) 
+  @media (min-width: 821px) and (max-width: 1199px) 
   {.project-about {
     display: block;
   }}
     
-  @media (min-width: 1000px) 
+  @media (min-width: 1199px) 
   {.project-about {
     display: flex;
     justify-content: center;

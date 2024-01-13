@@ -1,7 +1,6 @@
 :root {
-  --color-dark: #000000;
+  --color-dark: #434650;
   --color-light: #fffffff;
-  --color-primary: rgb(54, 192, 126);
   --color-secondary: rgb(255, 247, 229);
   --animation-primary: all .5s cubic-bezier(.7, 0, .3, 1);
    --animation-fast: all .3s cubic-bezier(.7, 0, .3, 1);
@@ -62,23 +61,23 @@
 
 .theme-no-italic .btn .btn-click .btn-text .serif {
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
 }
 
 .btn .btn-click .btn-text .serif {
-  color: var(--color-primary);
-  font-family: 'Playfair display', Arial;
+  color: var(--color-dark);
+  font-family: Poppins, Arial;
   position: absolute;
   top: 0;
   left: 0;
   white-space: nowrap;
   transform: translateY(140%) rotate(10deg);
   transition: var(--animation-primary);
-  letter-spacing: -.1em;
+  letter-spacing: -.05em;
   text-align: center;
   width: 100%;
   transition-delay: 0s;
-  font-size: 2.369rem;
+  font-size: 2rem;
 }
 
 .btn .btn-click .btn-text span:nth-of-type(1) {
@@ -185,6 +184,13 @@
   padding: 12px 24px;
   display: flex;
   justify-self: center;
+  color: #000;
+}
+
+.normal-btn img{
+  width: 20px;
+  align-self: center;
+  padding-left: 4px;
 }
 
 @media (max-width: 820px)

@@ -1,7 +1,7 @@
 :root {
-  --color-dark: #000000;
+  --color-dark: #434650;
   --color-light: #ffffff;
-  --color-primary: #36C07E;
+  --color-primary: #9EF1E1;
   --color-secondary: #FFFCF4;
   --animation-primary: all .5s cubic-bezier(.7, 0, .3, 1);
    --animation-fast: all .3s cubic-bezier(.7, 0, .3, 1);
@@ -16,7 +16,7 @@
 }
 
 .hero {
-  background-color: #FFAEE3;
+  background-color: #ff729f;
 }
 
 /*Heading*/
@@ -27,6 +27,7 @@
   flex-direction: row;
   align-items: baseline;
   justify-content: center;
+  padding-bottom: 8px;
 }
 
 @media (max-width: 820px)
@@ -86,8 +87,8 @@ margin: 4px;
   border-radius: 30px;
   position: relative;
   margin: 4px;
-  color: white;
-  border: 1px solid #fff;
+  color: #434650;
+  border: 1px solid rgba(255, 255, 255);
   box-shadow: 0px 4px 30px 0px rgba(242, 70, 184, 0.30);
 
 }
@@ -114,8 +115,8 @@ margin: 4px;
   position: relative;
   margin: 4px;
   padding: 32px;
-  color: white;
   border: 1px solid #fff;
+  color: #fff;
   box-shadow: 0px 4px 30px 0px rgba(242, 70, 184, 0.30);
 
 }
@@ -127,6 +128,7 @@ margin: 4px;
   padding: 32px;
   justify-content: space-between;
   border: 1px solid #fff;
+  color: var(--color-dark);
   box-shadow: 0px 4px 30px 0px rgba(242, 70, 184, 0.30);
 
 }

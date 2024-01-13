@@ -1,6 +1,6 @@
 .footer {
-  color: white;
-  background: var(--color-primary);
+  color: #434650;
+  background: #9EF1E1;
   padding: 60px;
   display: flex;
   flex-direction: column;

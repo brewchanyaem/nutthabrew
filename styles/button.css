@@ -100,12 +100,6 @@
   transition-delay: -0.05s;
 }
 
-
-
-
-
-
-
 .btn-text-white {
   font-family: Poppins, Arial;
   display:flex;
@@ -184,7 +178,11 @@
   padding: 12px 24px;
   display: flex;
   justify-self: center;
-  color: #000;
+  color: #434650;
+}
+
+.normal-btn a{
+  color: #434650;
 }
 
 .normal-btn img{

@@ -27,6 +27,7 @@
 .project {
   padding-left: 32px;
   max-width: 850px;
+  color: #434650;
 }
 
 .recent-work {
@@ -44,14 +45,16 @@
 }
 
 .website {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #434650;
   margin-bottom: 20px;
   padding-bottom: 12px;
+  color: #434650;
 }
 
 .project-wrapper{
   margin: auto;
   width:100%;
+  color: #434650;
 }
 
 .hover-text span.hover-card{
@@ -99,4 +102,8 @@
 .recent-work {
     grid-template-columns: 1fr 1.5fr;
     }
+  }
+
+  .work-title {
+    color: #434650;
   }

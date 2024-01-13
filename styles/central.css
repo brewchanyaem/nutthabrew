@@ -65,7 +65,7 @@
 }}
 
 .central-ci {
-  background-color: #FFAEE3;
+  background-color: #ff729f;
   padding: 100px 112px 100px 112px;
 }
 
@@ -113,7 +113,7 @@
 .central-element {
   display: grid;
   border-radius: 30px;
-  background-color: #FFFCF4;
+  background-color: #fff;
   border: 1px solid #fff;
   padding: 24px;
   gap: 24px;
@@ -475,9 +475,10 @@ width: 100%;
 
 /*CONTENT DESIGN*/
 .content-design{
-  background-color: #FFAEE3;
+  background-color: #ff729f;
   padding: 100px 112px 40px 112px;
   display: grid;
+  color:#fff;
 }
 
 .content-design h2 {
